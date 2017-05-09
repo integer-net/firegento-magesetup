@@ -477,6 +477,11 @@
             <groups>
                 <classes>
                     <fields>
+                        <shipping_tax_class>
+                            <depends>
+                                <shipping_tax_on_product_tax>0</shipping_tax_on_product_tax>
+                            </depends>
+                        </shipping_tax_class>
                         <shipping_tax_on_product_tax translate="label,comment" module="magesetup">
                             <label>Dynamic Shipping Tax Class Calculation</label>
                             <comment>

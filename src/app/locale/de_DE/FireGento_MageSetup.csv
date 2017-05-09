@@ -126,6 +126,11 @@
 "Email Settings","Email-Einstellungen"
 "Tax Settings","Steuer-Einstellungen"
 
+"Off (Use above tax class)","Aus (verwende o.a. Steuerklasse)"
+"Use the highest product tax","Verwende den höchsten Produktsteuersatz des Warenkorbs"
+"Use the tax rate of products that make up the biggest amount","Verwende den Steuersatz des größten Produktanteils"
+"Use mixed tax rates (in proportion to product value)","Gemischte Besteuerung anhand der Produktanteile"
+
 "Delivery Time","Lieferzeit"
 "Shipping Costs","Versandkosten"
 "Hide estimated shipping costs in cart","Geschätzte Versandkosten im Warenkorb verstecken"
