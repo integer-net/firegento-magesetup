@@ -81,8 +81,8 @@ class FireGento_MageSetup_Model_Tax_Sales_Total_Quote_Tax extends Mage_Tax_Model
      */
     protected function _calculateShippingTax(Mage_Sales_Model_Quote_Address $address, $taxRateRequest)
     {
-        if (Mage::getStoreConfigFlag(FireGento_GermanSetup_Model_Tax_Config::XML_PATH_SHIPPING_TAX_ON_PRODUCT_TAX)
-            != FireGento_GermanSetup_Model_Tax_Config::USE_PROPORTIONALLY_MIXED_TAX) {
+        if (Mage::getStoreConfigFlag(FireGento_MageSetup_Model_Tax_Config::XML_PATH_SHIPPING_TAX_ON_PRODUCT_TAX)
+            != FireGento_MageSetup_Model_Tax_Config::USE_PROPORTIONALLY_MIXED_TAX) {
             return parent::_calculateShippingTax($address, $taxRateRequest);
         }
 

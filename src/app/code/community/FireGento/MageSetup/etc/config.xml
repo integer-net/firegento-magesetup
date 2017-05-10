@@ -61,7 +61,7 @@
             <tax>
                 <rewrite>
                     <config>FireGento_MageSetup_Model_Tax_Config</config>
-                    <sales_total_quote_tax>FireGento_GermanSetup_Model_Tax_Sales_Total_Quote_Tax</sales_total_quote_tax>
+                    <sales_total_quote_tax>FireGento_MageSetup_Model_Tax_Sales_Total_Quote_Tax</sales_total_quote_tax>
                 </rewrite>
             </tax>
         </models>
