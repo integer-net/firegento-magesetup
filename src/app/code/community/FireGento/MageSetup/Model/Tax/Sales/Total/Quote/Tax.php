@@ -49,7 +49,7 @@ class FireGento_MageSetup_Model_Tax_Sales_Total_Quote_Tax extends Mage_Tax_Model
         $total = 0;
         foreach ($quoteItems as $item) {
             /** @var $item Mage_Sales_Model_Quote_Item */
-            if ($item->getParentItem()) {
+            if (! $item->getTaxClassId()) {
                 continue;
             }
             // sum up all product values grouped by the tax class id
